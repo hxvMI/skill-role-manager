@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "building-practices",
+  "version": "0.1.0",
+  "permissions": [],
+  "dependencies": {},
+  "files": {
+    ".codex-plugin/plugin.json": "2a138c862d59861d9754734076dde451683b78b97f2fb8555ddddc9f0e68af8b",
+    "LICENSE": "58b520123a4d2250fe238c73940d35157dc84a6f4feb246f531eda6d5857f366",
+    "plugin.json": "faef538070f03030261e05ff40b1966d01d0f930f27f2029cb395cded7ec4b3a",
+    "ROLES.md": "023071f828ce75985def7751d60af7e22991f68e8f0a6618e45228b94ac019f1",
+    "skills/context-engineer/SKILL.md": "cdc48d4531422679e7211a9c7fda8e3c7a5f283687873d303431dd2b850cb08d",
+    "skills/independent-audit/SKILL.md": "b7b78bf92531b4ae32c619e442f0cee866c109c7be84dc7bc00df604ac2bf765",
+    "skills/knowledge-maintainer/SKILL.md": "929d4f798da74daf54d0d1a7742b8c271ec8a616d26a81f18fd71ef4a9176c82",
+    "skills/root-cause-investigator/SKILL.md": "d2e49b67b8ade3fe16e511f0db6f6c778783d461987a77f511cc807c4d806a7c",
+    "skills/scenario-tester/SKILL.md": "4a3afcf1633c2dbca58229b97f982026caf82613925f91f8251723d48093fc5b",
+    "skills/session-handoff/SKILL.md": "276de8c9799a84f1d5908f3c1a1807019b84cf4a8ee8fdd65fa1c5692cbecae9",
+    "skills/skill-evaluator/SKILL.md": "79fbb54d20da131c7cee5d8a07fe8bb706616d67a7beddedeb3cbf8a3ae3de09",
+    "skills/visual-fidelity-reviewer/SKILL.md": "a22e13f974b4af7182fc03662bf04cc687aa9a5a2c1dae2cf35e12604f8c1ee5"
+  }
+}

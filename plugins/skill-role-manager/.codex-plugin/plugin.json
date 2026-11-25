@@ -1,0 +1,6 @@
+{
+  "name": "skill-role-manager",
+  "version": "0.1.0",
+  "description": "Review and manage local skill and role packages with explicit plans and recoverable marketplace registrations.",
+  "skills": "./skills/"
+}

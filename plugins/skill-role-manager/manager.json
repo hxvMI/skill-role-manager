@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "skill-role-manager",
+  "version": "0.1.0",
+  "permissions": [
+    "local-code",
+    "write-selected-marketplace"
+  ],
+  "dependencies": {},
+  "files": {
+    ".codex-plugin/plugin.json": "ec0ccc7a3b9898bc14f39f743adecfbedd9cc6325501c012abb79ccb3c6c73c0",
+    "LICENSE": "58b520123a4d2250fe238c73940d35157dc84a6f4feb246f531eda6d5857f366",
+    "plugin.json": "a3ed5f18b8eb076c24cbfb50b72395b901b8c7b903c29541451f848df0a98ab8",
+    "skills/manage-skills/references/workflow.md": "d37bc409cb54292861156ee5a4f38f260de5b77b6cacab5815976353a99e6236",
+    "skills/manage-skills/scripts/manager.py": "d9a9c1737eb2527c5b7d7f5e05b1947b0ceda3450ca2aa6f3e4dd6509f9529e3",
+    "skills/manage-skills/SKILL.md": "114f867e9f01842fa723fcb2b62a1418969105987037479d6069cdc57151d587"
+  }
+}

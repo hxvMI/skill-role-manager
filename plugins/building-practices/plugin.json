@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "building-practices",
+  "version": "0.1.0",
+  "description": "Eight candidate project-building procedures and single-session role guidance. Independently unvalidated; no autonomous agents.",
+  "license": "MIT"
+}

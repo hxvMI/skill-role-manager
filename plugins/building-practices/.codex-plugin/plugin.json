@@ -1,0 +1,6 @@
+{
+  "name": "building-practices",
+  "version": "0.1.0",
+  "description": "Eight candidate project-building procedures and role guidance; no autonomous runtime.",
+  "skills": "./skills/"
+}

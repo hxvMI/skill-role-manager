@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.skill-role-manager/
+*.tmp
+.venv/
+dist/

@@ -1,0 +1,15 @@
+# Permissions, compatibility and recovery
+
+This is a local owner-controlled tool, not a malicious-package sandbox or a credential broker. No network access, publisher authentication, package-code execution, automatic dependency installation, hook execution, telemetry or live account administration is implemented. Review imported instructions and code before native installation; the host can later execute actions according to its own tools/permissions.
+
+Manager package declares local-code and write-selected-marketplace. Grants acknowledge review; they do not override OS/host authority or restrict what imported code could do if later executed manually. Unknown host components are rejected. The optional Building Practices pack declares no extra executable permissions; its natural-language actions still require applicable user/host authorization.
+
+Validate hashes, bounded file count/size, exact dependency versions, names, path confinement, case collisions and no links/junctions. Reject unknown schemas and active integrations. Extract directories are accepted; archives and remote URLs are not ingested by the manager, avoiding implicit extraction/download behavior. Hash sealing is not a signature, vulnerability audit, semantic skill validator or proof of trust. A changed package can be malicious even if all hashes agree.
+
+Selected target must be writable and owner-controlled. Symlink/reparse checks mitigate accidental escapes; they are not race-free protection against another hostile process changing the filesystem. Supported local Windows behavior is tested; cross-platform path handling is designed portably but Linux/macOS execution remains untested. No guarantee is made against disk corruption or power loss. Atomic replace plus durable file writes and journals address tested process interruption points.
+
+Single-writer lock prevents normal concurrent writers. A hard crash can leave a stale lock; verify the process is stopped before authorized manual removal, then recover the pending journal. Recovery/rollback refuses catalog drift instead of overwriting later user edits. Old source revisions remain; backups contain local catalog paths and must stay private. Local state and transaction records must never be copied into public releases.
+
+This repository's marketplace is a bootstrap source, not a managed target. Host installation/refresh/uninstall remains the host's responsibility. A disabled/unregistered entry may still have an installed host copy. No global config, plugin cache or existing Project settings are altered by the test suite.
+
+Role guidance is not autonomous execution or independent review. Unknown migration schemas stop with an error. No update daemon or public registry is trusted automatically. Before public release: independently review code, choose publication scope, verify actual target installation and scan exact export. Report security issues privately to the repository maintainer once a public repository/contact has been established; no contact address is invented here.
